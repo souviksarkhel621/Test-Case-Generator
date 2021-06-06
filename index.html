@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Test Case Generator</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <div class="Head">
+    <h1><b>Test Case Generator</b></h1>
+  </div>
+  <div class="Body">
+    <form class="INPUT" action="index.html" method="post">
+      <div class="xx"></div>
+      <label for="no">How Many Numbers You Want to Generate:</label>
+      <input type="number" name="no" placeholder="Eg- 5" value="1" id="nooftimes">
+      <br>
+
+      <div class="range">
+        <label for="no">Range:</label>
+        <input type="number" name="From" value="0" id="rangestart"> To
+        <input type="number" name="To" value="100"id="rangeend">
+        <br>
+      </div>
+<div class="xx"></div>
+      <button type="button" name="button" id="btn">Generate Text</button>
+    </form>
+  </div>
+  <div class="output">
+    <h2>Generated Testcase:</h2>
+    <div class="opconsole">
+      <p id=amplified>Numbers will appear here</p>
+
+    </div>
+
+  </div>
+
+  <div class="footer">
+    <p>© 2021-22 Souvik Sarkhel</p>
+
+  </div>
+  <script src="index.js" charset="utf-8"></script>
+</body>
+
+</html>
