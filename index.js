@@ -6,8 +6,10 @@ document.getElementById("btn").addEventListener("click", function(){
   if(range<0){alert("Please Enter The Range Correctly");}
   var ans="";
   for(var i=0;i<n;i++)
-  {
-    ans+=Math.floor((Math.random() * range) + start)+" ";
+  {var varr=Math.floor(Math.random() * range );
+    let xx=Number(varr)+Number(start);
+    //alert(varr+" "+start+" "+xx);
+    ans+=xx+" ";
   }
   document.getElementById("amplified").innerHTML=ans;
 });
